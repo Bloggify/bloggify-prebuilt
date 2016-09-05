@@ -28,12 +28,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/IonicaBizau/bloggify-prebuilt.git"
+    "url": "git+ssh://git@github.com/Bloggify/bloggify-prebuilt.git"
   },
   "bugs": {
-    "url": "https://github.com/IonicaBizau/bloggify-prebuilt/issues"
+    "url": "https://github.com/Bloggify/bloggify-prebuilt/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/bloggify-prebuilt#readme",
+  "homepage": "https://github.com/Bloggify/bloggify-prebuilt#readme",
   "dependencies": {
     "bloggify": "ionicabizau/bloggify#refactor",
     "lien": "^1.3.0"

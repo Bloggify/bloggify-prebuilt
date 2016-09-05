@@ -17,17 +17,16 @@ $ npm i --save bloggify-prebuilt
 
 
 ```js
-const bloggifyPrebuilt = require("bloggify-prebuilt");
+const Bloggify = require("bloggify-prebuilt");
 
-console.log(bloggifyPrebuilt());
+// Start the app
+let app = new Bloggify("path/to/your/app");
+
+// After it's started, do something
+app.onLoad(err => {
+    console.log(`Bloggify running on port ${app._serverPort}`);
+});
 ```
-
-## :memo: Documentation
-
-
-### exports
-
-
 
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
