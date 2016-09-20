@@ -12,3 +12,6 @@ babel dist/bloggify.js -o dist/bloggify.js
 
 echo "Uglifying..."
 uglifyjs dist/bloggify.js -c -m -o dist/bloggify.js
+
+ship-release bump
+ship-release publish -d 'Rebuild.'
