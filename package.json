@@ -34,8 +34,10 @@
     "url": "https://github.com/Bloggify/bloggify-prebuilt/issues"
   },
   "homepage": "https://github.com/Bloggify/bloggify-prebuilt#readme",
+  "devDependencies": {
+    "bloggify": "ionicabizau/bloggify#refactor"
+  },
   "dependencies": {
-    "bloggify": "ionicabizau/bloggify#refactor",
     "lien": "^1.3.0"
   }
 }
