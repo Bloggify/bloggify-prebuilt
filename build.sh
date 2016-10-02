@@ -1,5 +1,5 @@
 rm -rf node_modules
-npm i --production
+npm i
 
 echo "Browserifying..."
 browserify --node -s BloggifyServer lib/index.js -o dist/bloggify.js --exclude lien
