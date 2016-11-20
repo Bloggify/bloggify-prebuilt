@@ -8,10 +8,10 @@ echo "Replacing octals."
 sed -i -- 's/ 0777 / 0o777 /g' dist/bloggify.js
 
 echo "Babelfiying."
-babel dist/bloggify.js -o dist/bloggify.js
+#babel dist/bloggify.js -o dist/bloggify.js
 
 echo "Uglifying..."
-uglifyjs dist/bloggify.js -c -m -o dist/bloggify.js
+#uglifyjs dist/bloggify.js -c -m -o dist/bloggify.js
 
 ship-release bump
 ship-release publish -d 'Rebuild.'
