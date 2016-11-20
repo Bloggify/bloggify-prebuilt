@@ -8,7 +8,7 @@
     "version"
   ],
   "license": "MIT",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "main": "dist/bloggify.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -35,7 +35,11 @@
   },
   "homepage": "https://github.com/Bloggify/bloggify-prebuilt#readme",
   "devDependencies": {
-    "bloggify": "ionicabizau/bloggify"
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "bloggify": "ionicabizau/bloggify",
+    "browserify": "^13.1.1",
+    "uglifyjs": "^2.4.10"
   },
   "dependencies": {
     "lien": "^1.6.0"
