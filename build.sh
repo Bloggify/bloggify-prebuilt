@@ -2,10 +2,7 @@ rm -rf node_modules
 npm i
 
 echo "Browserifying..."
-./node_modules/.bin/browserify --node -s BloggifyServer lib/index.js -o dist/bloggify.js --exclude lien
-
-echo "Replacing octals."
-#sed -i -- 's/ 0777 / 0o777 /g' dist/bloggify.js
+./node_modules/.bin/browserify --node -s BloggifyServer lib/index.js -o dist/bloggify.js --exclude lien --exclude sugarss --exclude pkg-resolve --exclude fsevents
 
 echo "Babelfiying."
 ./node_modules/.bin/babel dist/bloggify.js -o dist/bloggify.js
