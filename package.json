@@ -8,7 +8,7 @@
     "version"
   ],
   "license": "MIT",
-  "version": "1.0.23",
+  "version": "1.0.25",
   "main": "dist/bloggify.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -42,7 +42,8 @@
     "uglifyjs": "^2.4.10"
   },
   "dependencies": {
-    "lien": "^1.6.0"
+    "lien": "^1.6.0",
+    "rucksack": "^2.0.0"
   },
   "blah": {}
 }
