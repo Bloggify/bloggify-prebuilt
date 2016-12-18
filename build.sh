@@ -10,5 +10,5 @@ echo "Babelfiying."
 echo "Uglifying..."
 ./node_modules/.bin/uglifyjs dist/bloggify.js -c -m -o dist/bloggify.js
 
-ship-release bump
-ship-release publish -d 'Rebuild.'
+./node_modules/.bin/ship-release bump
+./node_modules/.bin/ship-release publish -d 'Rebuild.'
