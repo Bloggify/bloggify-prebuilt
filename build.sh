@@ -1,5 +1,5 @@
-#rm -rf node_modules
-#npm i
+rm -rf node_modules
+npm i
 
 echo "Browserifying..."
 ./node_modules/.bin/browserify --node -s BloggifyServer lib/index.js -o dist/bloggify.js --exclude lien --exclude rucksack
