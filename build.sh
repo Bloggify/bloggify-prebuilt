@@ -12,3 +12,5 @@ echo "Uglifying..."
 
 ./node_modules/.bin/ship-release bump
 ./node_modules/.bin/ship-release publish -d 'Rebuild.'
+rm -rf node_modules
+babel-it
