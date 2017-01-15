@@ -43,7 +43,7 @@
     "uglifyjs": "^2.4.10"
   },
   "dependencies": {
-    "lien": "^1.6.0",
+    "lien": "^2.2.0",
     "rucksack": "^2.0.0"
   },
   "blah": {}
