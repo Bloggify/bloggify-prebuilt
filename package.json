@@ -8,7 +8,7 @@
     "version"
   ],
   "license": "MIT",
-  "version": "1.0.39",
+  "version": "1.0.40",
   "main": "dist/bloggify.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
