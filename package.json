@@ -44,7 +44,8 @@
   },
   "dependencies": {
     "lien": "^2.2.0",
-    "rucksack": "^2.0.0"
+    "rucksack": "^2.0.0",
+    "socket.io": "^2.0.1"
   },
   "blah": {}
 }
